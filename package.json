@@ -6,6 +6,6 @@
   "author": "mottox2 <y.mottox2@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "pandoc entry.md --reference-doc=custom-reference.docx -o result.docx"
+    "build": "pandoc -d defaults.yml"
   }
 }

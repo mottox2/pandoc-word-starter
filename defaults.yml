@@ -1,0 +1,13 @@
+from: markdown+hard_line_breaks
+to: docx
+output-file: result.docx
+input-files:
+- entry.md
+
+filters:
+- filters/pagebreak.lua
+
+reference-doc: custom-reference.docx
+
+table-of-contents: false
+toc-depth: 2
